@@ -8,6 +8,7 @@ public class Methods {
         hi("Chris!");
         hi("Mon!", "Chris!");
         hi(" Mon,", " Chris,", " John!");
+        System.out.println("result: " + addition(1,2,3,4));
     }
 
     private static void sayHi() {
@@ -28,5 +29,13 @@ public class Methods {
              result = result + s;
         }
         System.out.println("Hi"+ result);
+    }
+
+    private static int addition(int... a) {
+        int result = 0;
+        for(int i : a){
+            result += i;
+        }
+        return result;
     }
 }
