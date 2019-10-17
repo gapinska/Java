@@ -41,8 +41,6 @@ public class Methods {
     }
 
     private static boolean checkBy3 (int a){
-        if(a%3==0)
-            return true;
-        else return false;
+        return a%3==0;
     }
 }
