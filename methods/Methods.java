@@ -9,6 +9,7 @@ public class Methods {
         hi("Mon!", "Chris!");
         hi(" Mon,", " Chris,", " John!");
         System.out.println("result: " + addition(1,2,3,4));
+        System.out.println(checkBy3(4));
     }
 
     private static void sayHi() {
@@ -37,5 +38,11 @@ public class Methods {
             result += i;
         }
         return result;
+    }
+
+    private static boolean checkBy3 (int a){
+        if(a%3==0)
+            return true;
+        else return false;
     }
 }
