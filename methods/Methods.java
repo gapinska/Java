@@ -43,4 +43,9 @@ public class Methods {
     private static boolean checkBy3 (int a){
         return a%3==0;
     }
+
+    private static void foo (){
+        System.out.println("foo");
+        foo();
+    }
 }
