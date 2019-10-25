@@ -44,8 +44,5 @@ public class Methods {
         return a%3==0;
     }
 
-    private static void foo (){
-        System.out.println("foo");
-        foo();
-    }
+//     
 }
