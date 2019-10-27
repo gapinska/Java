@@ -29,4 +29,8 @@ public class Client {
     public void setAddress(Address address) {
         this.address = address;
     }
+
+    public void introduceYourself() {
+        System.out.printf("Hello, I am %s %s%n", firstName, lastName);
+    }
 }

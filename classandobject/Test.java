@@ -7,9 +7,7 @@ public class Test {
 
         Client clientMichael = new Client ();
 
-        Address michaelAddress = new Address();
-        michaelAddress.setPostCode("00-001");
-        michaelAddress.setPostOffice("Warsaw");
+        Address michaelAddress = new Address("Warsaw", "00-001");
 
         clientMichael.setFirstName("Michael");
         clientMichael.setLastName("Forbes");
